@@ -1,0 +1,15 @@
+services:
+  php_modificaciones:
+    image:
+     php:8.2-apache
+
+    container_name:
+
+     php_modificaciones
+
+    volumes:
+
+      - ./github-programas:/var/www/html
+
+    ports:
+      - "8080:80"
