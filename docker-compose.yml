@@ -9,7 +9,7 @@ services:
 
     volumes:
 
-      - ./github-programas:/var/www/html
+      - ./miWeb:/var/www/html
 
     ports:
       - "8080:80"
