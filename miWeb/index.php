@@ -8,8 +8,11 @@
 </head>
 <body>
     <a href="./ej1/">ejercicio1</a>
+    <br>
     <a href="./ej2/">ejercicio2</a>
+    <br>
     <a href="./ej3/">ejercicio3</a>
+    <br>
     <a href="./ej4/">ejercicio4</a>
 </body>
 </html>

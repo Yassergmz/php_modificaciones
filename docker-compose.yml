@@ -1,15 +1,8 @@
 services:
   php_modificaciones:
-    image:
-     php:8.2-apache
-
-    container_name:
-
-     php_modificaciones
-
+    image: php:8.2-apache
+    container_name: php_modificaciones
     volumes:
-
       - ./miWeb:/var/www/html
-
     ports:
-      - "8080:80"
+      - "8091:80"
